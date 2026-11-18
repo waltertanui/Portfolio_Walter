@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Walter Tanui’s developer portfolio, featuring web apps, commerce, automation and data projects."><meta name="theme-color" content="#10111a"><title>Walter Tanui — Developer Portfolio</title><link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2212%22%20fill%3D%22%23623929%22%2F%3E%3Ctext%20x%3D%2231%22%20y%3D%2243%22%20text-anchor%3D%22middle%22%20fill%3D%22%23f6f2ea%22%20font-family%3D%22Georgia%2Cserif%22%20font-size%3D%2232%22%20letter-spacing%3D%22-3%22%3EWT%3C%2Ftext%3E%3C%2Fsvg%3E"><style>
+:root{color-scheme:dark;--bg:#10111a;--ink:#f7f5ff;--muted:#b6b6ca;--line:#ffffff23;--accent:#c5b2ff}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,sans-serif}a{color:inherit;text-decoration:none}button{font:inherit}a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:5px}.wrap{width:min(1200px,calc(100% - 64px));margin:auto}header .wrap{display:flex;align-items:center;justify-content:space-between;padding:22px 0;border-bottom:1px solid var(--line)}.brand{display:flex;align-items:center;gap:12px;font-weight:700}.mark{display:grid;place-items:center;width:37px;height:37px;border:1px solid #ae97f9;border-radius:10px;color:var(--accent);font:700 13px ui-monospace,monospace}nav{display:flex;gap:28px;color:var(--muted)}nav a:hover,.text-link:hover{color:var(--accent)}.hero{display:grid;grid-template-columns:1fr 1fr;align-items:center;min-height:590px;padding:40px 0 56px}.hero-copy{z-index:1}.eyebrow,.category{font:600 12px/1.6 ui-monospace,monospace;text-transform:uppercase;letter-spacing:.15em;color:var(--accent)}h1,h2,h3,p{margin:0}h1{font-size:clamp(65px,9.4vw,143px);line-height:.84;letter-spacing:-.085em;margin:24px 0 28px}h1 span{display:block;color:var(--accent)}.lead{max-width:420px;color:var(--muted);font-size:18px}.actions{display:flex;align-items:center;gap:23px;flex-wrap:wrap;margin-top:31px}.primary{display:inline-block;border-radius:100px;background:var(--accent);color:#171126;padding:11px 19px;font-weight:750}.primary:hover{background:#e0d7ff}.scene{position:relative;aspect-ratio:1.11;min-width:0;margin-left:-25px;background:radial-gradient(ellipse at center,#32224d 0,transparent 68%)}canvas{width:100%;height:100%;display:block;touch-action:pan-y;cursor:grab}canvas:active{cursor:grabbing}.scene button{position:absolute;bottom:0;right:0;background:#171824;color:var(--muted);border:1px solid var(--line);border-radius:20px;padding:5px 12px;font-size:12px;cursor:pointer}.section{border-top:1px solid var(--line);padding:66px 0}.section h2{font-size:clamp(39px,6vw,76px);line-height:1;letter-spacing:-.065em;margin-bottom:20px}.filters{display:flex;gap:8px;flex-wrap:wrap;margin:27px 0 24px}.filters[hidden]{display:none}.filters button{background:transparent;border:1px solid var(--line);border-radius:99px;color:var(--muted);padding:6px 13px;cursor:pointer}.filters button[aria-pressed=true]{background:var(--accent);color:#171126;border-color:var(--accent)}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{display:flex;flex-direction:column;overflow:hidden;border:1px solid var(--line);border-radius:19px;background:#171824;transition:border-color .2s,transform .2s}.card[hidden]{display:none}.card:hover{border-color:var(--accent);transform:translateY(-4px)}.art{display:grid;place-items:center;min-height:176px;overflow:hidden;background:radial-gradient(ellipse at 35% 20%,var(--hi),transparent 70%),repeating-linear-gradient(135deg,#ffffff12 0 1px,transparent 1px 15px),var(--lo);color:#fff4ff;text-align:center;font-size:clamp(28px,4.4vw,60px);font-weight:800;letter-spacing:-.08em;line-height:.85;text-shadow:0 8px 25px #0009}.rose{--hi:#925165;--lo:#422539;font-family:Georgia,serif;letter-spacing:.04em}.violet{--hi:#6549ad;--lo:#302050}.red{--hi:#a04455;--lo:#481d2c}.blue{--hi:#38678b;--lo:#1c2d4b}.green{--hi:#317366;--lo:#173d3b}.card-body{display:flex;flex:1;flex-direction:column;padding:18px}.card h3{margin:4px 0;font-size:23px;letter-spacing:-.045em}.card p{color:var(--muted);font-size:14px}.project-link{margin-top:auto;padding-top:14px;font-size:13px;font-weight:700;color:var(--accent);display:flex;justify-content:space-between}.about{display:grid;grid-template-columns:1fr 1fr;gap:38px}.about p{max-width:500px;color:var(--muted)}footer{border-top:1px solid var(--line);padding:20px 0;color:var(--muted);font-size:13px}.skip{position:absolute;left:12px;top:-60px;background:var(--accent);color:#171126;padding:8px}.skip:focus{top:8px}
+@media(max-width:850px){.grid{grid-template-columns:repeat(2,1fr)}.hero{min-height:0}.scene{margin-left:-18px}}@media(max-width:620px){.wrap{width:calc(100% - 32px)}nav{gap:13px;font-size:13px}header .wrap{padding:15px 0}.brand{gap:7px;font-size:14px}.mark{width:30px;height:30px}.hero{grid-template-columns:1fr;padding:48px 0 25px}.scene{margin:10px 0 0;max-height:400px}.section{padding:43px 0}.about{grid-template-columns:1fr;gap:7px}}@media(max-width:430px){.grid{grid-template-columns:1fr}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important}}
+:root{color-scheme:light;--bg:#f6f2ea;--ink:#28231e;--muted:#63584d;--line:#cfc3b3;--accent:#623929;--paper:#eae0d2}
+body{font-family:Arial,sans-serif}.wrap{width:min(1320px,calc(100% - 88px))}header .wrap{padding:21px 0}.brand{font-family:Georgia,serif;font-weight:400;font-size:22px;letter-spacing:-.06em}.mark{display:none}nav{gap:31px;font-size:13px;color:var(--ink)}.hero{min-height:560px;padding:44px 0;grid-template-columns:1fr 1.08fr;gap:24px}.hero-copy{padding:15px 0}.eyebrow,.category{font:600 10px/1.5 Arial,sans-serif;letter-spacing:.18em}.hero h1,.section h2,.card h3{font-family:Georgia,serif;font-weight:400}.hero h1{font-size:clamp(64px,9vw,140px);line-height:.82;letter-spacing:-.085em;margin:27px 0 31px}.hero h1 span{font-style:italic;color:var(--accent);padding:0 .09em .09em 0}.lead{font-size:16px;max-width:350px}.actions{gap:20px}.primary{border-radius:0;background:#2c251f;color:#fff9ec;padding:11px 18px;font-size:13px;font-weight:500}.primary:hover{background:#623929}.text-link{font-size:13px;text-decoration:underline;text-underline-offset:4px}.scene{margin:0;aspect-ratio:1.14;background:radial-gradient(ellipse at 52% 40%,#f1e3d1,#dfd0bc 76%);isolation:isolate}.scene::before{content:'';position:absolute;inset:16px;border:1px solid #8a6e5559;pointer-events:none}.scene button{right:25px;bottom:25px;background:#f6f2ea;color:#413021;border-color:#ab947c;border-radius:0;font-size:10px}.section{padding:48px 0 58px}.section h2{font-size:clamp(42px,6vw,79px);letter-spacing:-.07em}.filters{gap:20px;margin:24px 0}.filters button{border:0;border-bottom:1px solid transparent;border-radius:0;padding:3px 0;font-size:13px}.filters button[aria-pressed=true]{background:transparent;border-color:var(--accent);color:var(--accent)}.grid{gap:28px 18px}.card{background:none;border:0;border-radius:0}.card:hover{transform:none}.art{aspect-ratio:1.65;min-height:0;background:radial-gradient(ellipse at 30% 10%,var(--hi),transparent 75%),var(--lo);font:italic 400 clamp(30px,5vw,72px)/.87 Georgia,serif;letter-spacing:-.07em;text-shadow:none;transition:filter .25s}.card:hover .art{filter:brightness(1.12)}.rose{--hi:#a56459;--lo:#633930}.violet{--hi:#766b72;--lo:#3f343a}.red{--hi:#aa7053;--lo:#713e2c}.blue{--hi:#687879;--lo:#38484a}.green{--hi:#75806b;--lo:#3c4939}.card-body{padding:14px 0 10px;border-bottom:1px solid var(--line)}.card h3{font-size:26px;line-height:1.1;margin:7px 0}.card p{font-size:13px}.project-link{padding-top:12px;font-weight:500}.about{align-items:start}.about p{padding-top:6px}.scene canvas{filter:drop-shadow(0 16px 10px #6d483b30)}.skip{background:#2c251f;color:#fff9ec}@media(max-width:900px){.wrap{width:calc(100% - 48px)}}@media(max-width:620px){.wrap{width:calc(100% - 32px)}header .wrap{padding:13px 0}nav{gap:13px}.hero{gap:12px;padding:35px 0 26px}.hero h1{font-size:clamp(68px,14.5vw,98px)}.scene{max-height:none}.section{padding:36px 0}.filters{gap:13px}}.contact-links{display:grid;justify-items:start;gap:10px;font-style:normal;padding-top:6px}.contact-links a{text-decoration:underline;text-underline-offset:4px}#contact .primary{margin-bottom:12px}</style></head><body><a class="skip" href="#main">Skip to content</a><header><div class="wrap"><a class="brand" href="#main"><span class="mark" aria-hidden="true">WT</span> Walter Tanui</a><nav aria-label="Main"><a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a></nav></div></header><main id="main" class="wrap"><section class="hero" aria-labelledby="name"><div class="hero-copy"><p class="eyebrow">Web developer</p><h1 id="name">Walter<span>Tanui</span></h1><p class="lead">I build online stores, web apps, and tools that automate everyday work.</p><div class="actions"><a class="primary" href="#work">View selected work ↓</a><a class="text-link" href="https://github.com/waltertanui">GitHub ↗</a></div></div><div class="scene"><canvas aria-hidden="true"></canvas><button type="button" id="motion" hidden>Pause rotation</button></div></section><section id="work" class="section"><h2>Selected work</h2><div class="filters" role="group" aria-label="Filter projects" hidden><button type="button" aria-pressed="true">All</button><button type="button" aria-pressed="false">Web apps</button><button type="button" aria-pressed="false">Commerce</button><button type="button" aria-pressed="false">Automation & AI</button><button type="button" aria-pressed="false">Data</button></div><p id="results" role="status" class="skip"></p><div class="grid"><article class="card" data-category="Commerce"><div class="art rose" aria-hidden="true">RUE &<br>RITUALS</div><div class="card-body"><span class="category">Commerce</span><h3>Rue & Rituals</h3><p>A fashion and beauty storefront for browsing collections and shopping online.</p><a class="project-link" href="https://rueandrituals.vercel.app" target="_blank" rel="noopener" aria-label="Open Rue & Rituals (new tab)">Open project <span aria-hidden="true">↗</span></a></div></article><article class="card" data-category="Web apps"><div class="art violet" aria-hidden="true">GRID<br>CLASH</div><div class="card-body"><span class="category">Web apps</span><h3>GridClash</h3><p>An online game with invite links that take players straight into a match.</p><a class="project-link" href="https://gridclashweb.vercel.app" target="_blank" rel="noopener" aria-label="Open GridClash (new tab)">Open project <span aria-hidden="true">↗</span></a></div></article><article class="card" data-category="Automation & AI"><div class="art red" aria-hidden="true">▶</div><div class="card-body"><span class="category">Automation & AI</span><h3>YouTube Automation</h3><p>A tool for saving YouTube videos and exporting audio.</p><a class="project-link" href="https://youtubeautomation-hazel.vercel.app" target="_blank" rel="noopener" aria-label="Open YouTube Automation (new tab)">Open project <span aria-hidden="true">↗</span></a></div></article><article class="card" data-category="Web apps"><div class="art blue" aria-hidden="true">＠</div><div class="card-body"><span class="category">Web apps</span><h3>Threads</h3><p>A web project that explores the Threads social experience.</p><a class="project-link" href="https://threads-three-ivory.vercel.app" target="_blank" rel="noopener" aria-label="Open Threads (new tab)">Open project <span aria-hidden="true">↗</span></a></div></article><article class="card" data-category="Web apps"><div class="art green" aria-hidden="true">SisiboPay</div><div class="card-body"><span class="category">Web apps</span><h3>SisiboPay Admin</h3><p>An admin dashboard with reporting and summary views.</p><a class="project-link" href="https://sisibopay-admin.vercel.app" target="_blank" rel="noopener" aria-label="Open SisiboPay Admin (new tab)">Open project <span aria-hidden="true">↗</span></a></div></article><article class="card" data-category="Automation & AI"><div class="art violet" aria-hidden="true">›_</div><div class="card-body"><span class="category">Automation & AI</span><h3>Chatty Groq Query</h3><p>A chatbot that uses database information to answer questions.</p><a class="project-link" href="https://chatty-groq-query.vercel.app" target="_blank" rel="noopener" aria-label="Open Chatty Groq Query (new tab)">Open project <span aria-hidden="true">↗</span></a></div></article><article class="card" data-category="Data"><div class="art blue" aria-hidden="true">▥</div><div class="card-body"><span class="category">Data</span><h3>Data Analytics Portfolio</h3><p>A separate portfolio dedicated to data analytics work.</p><a class="project-link" href="https://data-analytic-portfolio-one.vercel.app" target="_blank" rel="noopener" aria-label="Open Data Analytics Portfolio (new tab)">Open project <span aria-hidden="true">↗</span></a></div></article><article class="card" data-category="Automation & AI"><div class="art green" aria-hidden="true">◉</div><div class="card-body"><span class="category">Automation & AI</span><h3>Dealership Chatbot</h3><p>A conversational interface for a car dealership.</p><a class="project-link" href="https://dealershipchatbot.vercel.app" target="_blank" rel="noopener" aria-label="Open Dealership Chatbot (new tab)">Open project <span aria-hidden="true">↗</span></a></div></article><article class="card" data-category="Web apps"><div class="art blue" aria-hidden="true">Aquadent</div><div class="card-body"><span class="category">Web apps</span><h3>Aquadent</h3><p>A web application with a sidebar-based interface.</p><a class="project-link" href="https://aquadent-final.vercel.app" target="_blank" rel="noopener" aria-label="Open Aquadent (new tab)">Open project <span aria-hidden="true">↗</span></a></div></article><article class="card" data-category="Commerce"><div class="art green" aria-hidden="true">M Finance</div><div class="card-body"><span class="category">Commerce</span><h3>M Finance</h3><p>A landing page for a finance project.</p><a class="project-link" href="https://m-financelandingpage.vercel.app" target="_blank" rel="noopener" aria-label="Open M Finance (new tab)">Open project <span aria-hidden="true">↗</span></a></div></article><article class="card" data-category="Web apps"><div class="art rose" aria-hidden="true">MediConnect</div><div class="card-body"><span class="category">Web apps</span><h3>MediConnect</h3><p>A web project for MediConnect.</p><a class="project-link" href="https://mediconnect-six.vercel.app" target="_blank" rel="noopener" aria-label="Open MediConnect (new tab)">Open project <span aria-hidden="true">↗</span></a></div></article><article class="card" data-category="Automation & AI"><div class="art red" aria-hidden="true">SEO</div><div class="card-body"><span class="category">Automation & AI</span><h3>SEO Content</h3><p>A frontend for an SEO content generation project.</p><a class="project-link" href="https://seo-content-generation.vercel.app" target="_blank" rel="noopener" aria-label="Open SEO Content (new tab)">Open project <span aria-hidden="true">↗</span></a></div></article></div></section><section class="section about" id="about"><h2>About me</h2><p>My projects span storefronts, dashboards, chatbots and online games. I enjoy building both the interface people interact with and the systems that support it.</p></section><section class="section about" id="contact"><div><h2>Get in touch</h2><a class="primary" href="https://chatgpt.com/library?file_id=libfile_a0e9a0f00f248191b419b4f83a6a4ad6&amp;account_id=personal" target="_blank" rel="noopener">View CV ↗</a></div><address class="contact-links"><a href="mailto:waltretanu2020@gmail.com">waltretanu2020@gmail.com</a><a href="tel:+254711264431">+254 711 264 431</a><a href="https://github.com/waltertanui">GitHub ↗</a></address></section></main><footer><div class="wrap">Walter Tanui · Developer portfolio</div></footer><script>
+const filters = document.querySelector('.filters');
+filters.hidden = false;
+const cards = [...document.querySelectorAll('.card')];
+filters.addEventListener('click', event => {
+  const button = event.target.closest('button');
+  if (!button) return;
+  const category = button.textContent;
+  for (const item of filters.children) item.setAttribute('aria-pressed', item === button);
+  for (const card of cards) card.hidden = category !== 'All' && card.dataset.category !== category;
+  document.querySelector('#results').textContent = cards.filter(card => !card.hidden).length + ' projects shown';
+});
+
+const canvas = document.querySelector('canvas');
+const ctx = canvas.getContext('2d');
+if (ctx) {
+  const motion = document.querySelector('#motion');
+  const preference = matchMedia('(prefers-reduced-motion: reduce)');
+  let playing = !preference.matches;
+  let frame = 0, lastTime = 0, yaw = .6, pitch = -.24;
+  let width = 0, height = 0, pointer;
+  const bands = 108, sides = 22;
+  const points = Array.from({length: bands * sides}, (_, index) => {
+    const u = Math.floor(index / sides) * Math.PI * 2 / bands;
+    const v = (index % sides) * Math.PI * 2 / sides + u * 1.5;
+    const ring = 1.55 + .22 * Math.cos(3 * u);
+    const tube = .49 + .12 * Math.cos(3 * v);
+    return [(ring + tube * Math.cos(v)) * Math.cos(u),
+      (ring + tube * Math.cos(v)) * Math.sin(u), tube * Math.sin(v) + .3 * Math.sin(3 * u)];
+  });
+  function draw() {
+    ctx.clearRect(0, 0, width, height);
+    const cy = Math.cos(yaw), sy = Math.sin(yaw), cp = Math.cos(pitch), sp = Math.sin(pitch);
+    const scale = Math.min(width, height) * .21;
+    const projected = points.map(([x,y,z]) => {
+      const horizontal = x * cy + z * sy;
+      const depth = z * cy - x * sy;
+      const vertical = y * cp - depth * sp;
+      const finalDepth = y * sp + depth * cp;
+      const zoom = 6 / (6 - finalDepth);
+      return [width * .5 + horizontal * zoom * scale, height * .48 + vertical * zoom * scale, finalDepth];
+    });
+    for (let layer = 0; layer < 2; layer++) {
+      ctx.beginPath();
+      projected.forEach(([x,y,z], index) => {
+        if (Number(z >= 0) !== layer) return;
+        const edge = index % sides === sides - 1 ? index - sides + 1 : index + 1;
+        const next = index >= projected.length - sides
+          ? (index % sides + sides / 2) % sides
+          : index + sides;
+        ctx.moveTo(x,y);
+        ctx.lineTo(projected[edge][0], projected[edge][1]);
+        ctx.moveTo(x,y);
+        ctx.lineTo(projected[next][0], projected[next][1]);
+      });
+      const glow = ctx.createLinearGradient(0,0,width,height);
+      glow.addColorStop(0, layer ? '#764a39' : '#81655260');
+      glow.addColorStop(.5, layer ? '#8c624c' : '#93785d62');
+      glow.addColorStop(1, layer ? '#4b3025' : '#75503d62');
+      ctx.strokeStyle = glow;
+      ctx.lineWidth = layer ? .8 : .5;
+      ctx.stroke();
+    }
+  }
+  function animate(time) {
+    if (lastTime && !pointer) yaw += Math.min(time - lastTime, 50) * .00028;
+    lastTime = time;
+    draw();
+    frame = requestAnimationFrame(animate);
+  }
+  function updateMotion() {
+    motion.textContent = playing ? 'Pause rotation' : 'Play rotation';
+    cancelAnimationFrame(frame);
+    lastTime = 0;
+    if (playing) frame = requestAnimationFrame(animate);
+    else draw();
+  }
+  new ResizeObserver(() => {
+    const bounds = canvas.getBoundingClientRect();
+    const ratio = Math.min(devicePixelRatio, 2);
+    width = bounds.width;
+    height = bounds.height;
+    canvas.width = width * ratio;
+    canvas.height = height * ratio;
+    ctx.setTransform(ratio, 0, 0, ratio, 0, 0);
+    draw();
+  }).observe(canvas);
+  motion.hidden = false;
+  motion.addEventListener('click', () => { playing = !playing; updateMotion(); });
+  preference.addEventListener('change', () => { playing = !preference.matches; updateMotion(); });
+  canvas.addEventListener('pointerdown', event => {
+    if (!event.isPrimary || event.button !== 0) return;
+    pointer = event;
+    canvas.setPointerCapture(event.pointerId);
+  });
+  canvas.addEventListener('pointermove', event => {
+    if (pointer?.pointerId !== event.pointerId) return;
+    yaw += (event.clientX - pointer.clientX) * .012;
+    pitch += (event.clientY - pointer.clientY) * .012;
+    pointer = event;
+    if (!playing) draw();
+  });
+  canvas.addEventListener('lostpointercapture', event => {
+    if (pointer?.pointerId === event.pointerId) pointer = undefined;
+  });
+  updateMotion();
+}
+</script></body></html>
+
+
+
